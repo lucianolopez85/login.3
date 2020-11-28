@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(189, 191, 192);
+}
+img{
+    height: 400px;
+}
+#button{
+    color: black;
+    background-color: black;
+}
+
+.row{
+    margin: 10vh auto;
+    min-height: 10vh;
+
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px rgb(107, 106, 106)
+    
+}
+.col-12{
+    margin: 2vh auto;
+}
+@media (max-width: 575.98px){
+    #image{
+        display: none;
+    }
